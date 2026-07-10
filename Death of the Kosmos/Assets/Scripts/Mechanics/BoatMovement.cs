@@ -31,7 +31,7 @@ public class BoatMovement : MonoBehaviour
 			Enter();
 		}
 		
-		if(Input.GetKeyDown(KeyCode.Q))
+		if(Input.GetKeyDown(KeyCode.E))
 		{
 			isInTransition = true;
 		}
