@@ -7,6 +7,11 @@ public class PlayerSwap : MonoBehaviour
     public GameObject[] characters;
 	int currentActive = 0;
 	
+	void Awake()
+	{
+		characters[1].SetActive(false);
+	}
+	
 	void Update()
 	{
 		if(Input.GetKeyDown(KeyCode.Q))
